@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vaccinated" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+
+    <style>
+        footer {
+            margin-top: auto;
+            background-color: transparent #8f8989;
+            padding: 10px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .footer-content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            flex-basis: 25%;
+            box-sizing: border-box;
+        }
+
+        .footer-section about {
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .footer-section categories {
+            margin-left: 150px;
+        }
+
+        #location,
+        #email {
+            width: 20px;
+        }
+
+        #call,
+        #webadmin {
+            width: 15px;
+        }
+
+        .footer-section social {
+            margin-bottom: 15px;
+        }
+
+        #facebook,
+        #inster,
+        #printerest,
+        #linkdin,
+        #twitter {
+            width: 30px;
+        }
+
+        #visa,
+        #master {
+            width: 40px;
+        }
+
+        .copyright {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .copyright p {
+            margin: 0;
+        }
+        a {
+             text-decoration: none;
+             color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3><b>About Us</b></h3>
+                <p>"Sanctuary for book lovers. Immerse yourself in curated stories, ignite your passion, and embark on
+                    literary adventures."</p>
+            </div>
+            <div class="footer-section-categories">
+                <h3>Categories</h3>
+                <a href="bookhome.php">School</a><br><br>
+                <a href="bookhome.php">Children</a><br><br>
+                <a href="bookhome.php">Novels</a><br><br>
+                <a href="bookhome.php">Nalanda Publications</a><br><br>
+                <a href="bookhome.php">By Language</a><br><br>
+            </div>
+            <div class="footer-section quicklink">
+                <h3>Quick Link</h3>
+                <a href="bookhome.php" >Home</a><br><br>
+                <a href="aboutus.html">About us</a><br><br>
+                <a href="contactus.html">Contact Us</a><br><br>
+                <a href="login.php">Sign Up / Login</a><br><br>
+                <a href="link-to-terms&conditions">Terms & Condition</a><br>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Details</h3>
+                <img id="location" src="location-icon.png" alt="location">
+                <label>No.634/5,<br>&nbsp; &nbsp; &nbsp;Meththrama Rd,<br>&nbsp; &nbsp;
+                    &nbsp;Pannipitiya.</label><br><br>
+                <img id="call" src="call-icon.png" alt="call">
+                <label>+94112189673</label><br><br>
+                <img id="webadmin" src="webadmin.png" alt="webadmin">
+                <label>nalandabookstore.webadmin.lk</label><br><br>
+                <img id="email" src="email-icon.jpg" alt="email">
+                <label>nalandabookstore@gmail.com</label><br>
+
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com">
+                    <img id="facebook" src="facebook-logo.png" alt="facebook-logo">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img id="inster" src="instagram-icon.png" alt="Instagram logo">
+                </a>
+                <a href="https://www.pinterest.com">
+                    <img id="printerest" src="pinterest-icon.png" alt="Pinterest logo">
+                </a>
+                <a href="https://www.linkedin.com/company">
+                    <img id="linkdin" src="linkedin-logo.jpg" alt="LinkedIn logo">
+                </a>
+                <a href="https://twitter.com">
+                    <img id="twitter" src="twitter-logo.jpg" alt="Twitter logo">
+                </a>
+
+                <br><br>
+
+                <h3>We Accept</h3>
+                <img id="visa" src="visa-icon.png" alt="visa-icon">
+                <img id="master" src="mastercard-icon.png" alt="mastercard-icon">
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2023 Nalanda Book Store</p>
+    </footer>
+</body>
+
+</html>
